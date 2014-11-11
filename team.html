@@ -4,36 +4,46 @@
 <head>
 <style>
 #page {
-    background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrZlO-Qh78XJj2pEnaDh0bpdiXrL4WH0YWVEvyQSRuuzZ_Stzt");
-    padding:50px;
+    background-color: silver;
+    /*background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrZlO-Qh78XJj2pEnaDh0bpdiXrL4WH0YWVEvyQSRuuzZ_Stzt");*/
+    padding:50px 150px;
 }
 #header {
-    background-image:url("http://www.tactilemedia.com/download/weave.gif");
+    /*background-image:url("http://www.tactilemedia.com/download/weave.gif");*/
     color:black;
     text-align:center;
-    float:center;
+    /*float:center;*/
     padding:20px;
 }
 #nav {
+    background-color:black;
     line-height:30px;
-    background-image:url("http://www.tactilemedia.com/download/weave.gif");
-    height:500px;
-    width:200px;
     text-align:center;
-    float:left;
-    padding:5px;	      
+    float:center;
+    width: 100%;
+}
+#wrapper {
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    width: 600px;
 }
 #section {
-    background-image:url("http://www.metrolooknyc.com/v1site_images/backgrounds/black.jpg");
-    width:500px;
-    float:left;
-    color:white;
+    background-color: gray;
+    /*background-image:url("http://www.metrolooknyc.com/v1site_images/backgrounds/black.jpg");*/
+    /*width:500px;*/
+    float:center;
+    color:black;
     text-align:justify;
-    padding:50px;	 	 
+    padding:30px 100px;	 	 
+}
+#section2 {
+    padding:10px 50px;	 	 
 }
 #footer {
-    background-image:url("http://www.printedexistence.com/vampirefreaks/readymade/backgrounds/spiderwebs.gif");
-    color:white;
+    background-color: black;
+    /*background-image:url("http://www.printedexistence.com/vampirefreaks/readymade/backgrounds/spiderwebs.gif");*/
+    color:black;
     clear:both;
     text-align:center;
     padding:5px; 	 
@@ -43,20 +53,32 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    float: center;
+    text-align: center;
 }
 li {
-    float: center;
+    float: left;
+    text-align: center;
 }
 a:link, a:visited {
     display: block;
-    width: 190px;
+    /*width: 300px;*/
     font-weight: bold;
     color: #FFFFFF;
-    background-image:url("http://www.printedexistence.com/vampirefreaks/readymade/backgrounds/spiderwebs.gif");
+    /*background-image:url("http://www.printedexistence.com/vampirefreaks/readymade/backgrounds/spiderwebs.gif");*/
+    background-color:black;
     text-align: center;
     padding: 4px;
     text-decoration: none;
     text-transform: uppercase;
+    float:center;
+}
+#navbar-item {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    color: white;
 }
 /*#title {
     display: block;
@@ -75,26 +97,26 @@ a:link, a:visited {
 </style>
 </head>
 
-<body>
+<body bgcolor=silver>
 
 <div id="page">
-<div id="header"><div id="title">
+<div id="header"><!--<div id="title">-->
 	<img src="https://raw.githubusercontent.com/CAP-3027-Group-Project-UF/Webpage/master/GroupText1.png">
-</div></div>
+</div><!--</div>-->
 
-<div id="nav">
+<div id="nav"><div id="wrapper">
 	<ul>
-		<li><a href="index.html">Splash</a></li><br>
-		<li><a href="presentation.html">Presentation</a></li><br>
-		<li><a href="team.html">Team</a></li><br>
-		<li><a href="refs.html">References</a></li><br>
+		<li><a href="index.html" id="navbar-item">Intro</a></li>
+		<li><a href="presentation.html" id="navbar-item">Presentation</a></li>
+		<li><a href="team.html" id="navbar-item">Team</a></li>
+		<li><a href="refs.html" id="navbar-item">References</a></li>
 	</ul>
-</div>
+</div></div>
 
 <div id="section">
 	<h2>We Are The Particle Sims</h2>
 	<hr>
-	<p>
+	<div id="section2"><p>
 		Hanif Ahmed
 	</p>
 	<p>
@@ -105,7 +127,7 @@ a:link, a:visited {
 	</p>
 	<p>
 		Elaine Del Rosario
-	</p>
+	</p></div>
 </div>
 
 <div id="footer">
