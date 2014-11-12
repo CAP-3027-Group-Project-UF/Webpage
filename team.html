@@ -5,14 +5,11 @@
 <style>
 #page {
     background-color: silver;
-    /*background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrZlO-Qh78XJj2pEnaDh0bpdiXrL4WH0YWVEvyQSRuuzZ_Stzt");*/
-    padding:50px 150px;
+    padding:10px 150px;
 }
 #header {
-    /*background-image:url("http://www.tactilemedia.com/download/weave.gif");*/
     color:black;
     text-align:center;
-    /*float:center;*/
     padding:20px;
 }
 #nav {
@@ -21,6 +18,8 @@
     text-align:center;
     float:center;
     width: 100%;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
 }
 #wrapper {
     left: 0px;
@@ -28,25 +27,48 @@
     margin: auto;
     width: 600px;
 }
+#navbar-item {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
 #section {
     background-color: gray;
-    /*background-image:url("http://www.metrolooknyc.com/v1site_images/backgrounds/black.jpg");*/
-    /*width:500px;*/
     float:center;
     color:black;
     text-align:justify;
-    padding:30px 100px;	 	 
+    padding:50px 100px;	
+    font-family: sans-serif;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
 }
 #section2 {
-    padding:10px 50px;	 	 
+    padding:10px 50px;
+    line-height:5px;	 
+}
+#section3 {
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
+    padding:20px 50px;
+    background-color: silver;
+}
+#membertext {
+    padding:50px;
+    line-height:20px;
+}
+#pic {
+    padding:20px 50px;
 }
 #footer {
     background-color: black;
-    /*background-image:url("http://www.printedexistence.com/vampirefreaks/readymade/backgrounds/spiderwebs.gif");*/
     color:black;
     clear:both;
     text-align:center;
-    padding:5px; 	 
+    padding:5px;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;	 
 }
 ul {
     list-style-type: none;
@@ -62,10 +84,8 @@ li {
 }
 a:link, a:visited {
     display: block;
-    /*width: 300px;*/
     font-weight: bold;
     color: #FFFFFF;
-    /*background-image:url("http://www.printedexistence.com/vampirefreaks/readymade/backgrounds/spiderwebs.gif");*/
     background-color:black;
     text-align: center;
     padding: 4px;
@@ -73,36 +93,18 @@ a:link, a:visited {
     text-transform: uppercase;
     float:center;
 }
-#navbar-item {
-    display: inline-block;
-    width: 130px;
-    height: 30px;
-    text-align: center;
-    color: white;
+a:hover, a:active {
+    color: silver;
 }
-/*#title {
-    display: block;
-    width: 600px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-image:url("http://tailgateheavenradio.com/wp-content/uploads/2014/02/black_background_wood-wallpaper-800x600.jpg");
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
-    text-transform: uppercase;
-}*/
-/*a:hover, a:active {
-    background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrZlO-Qh78XJj2pEnaDh0bpdiXrL4WH0YWVEvyQSRuuzZ_Stzt");
-}*/
 </style>
 </head>
 
 <body bgcolor=silver>
 
 <div id="page">
-<div id="header"><!--<div id="title">-->
+<div id="header">
 	<img src="https://raw.githubusercontent.com/CAP-3027-Group-Project-UF/Webpage/master/GroupText1.png">
-</div><!--</div>-->
+</div>
 
 <div id="nav"><div id="wrapper">
 	<ul>
@@ -116,18 +118,45 @@ a:link, a:visited {
 <div id="section">
 	<h2>We Are The Particle Sims</h2>
 	<hr>
-	<div id="section2"><p>
-		Hanif Ahmed
-	</p>
-	<p>
-		Florencia Bonarto
-	</p>
-	<p>
-		Kenneth Caberera
-	</p>
-	<p>
-		Elaine Del Rosario
-	</p></div>
+	<div id="section2">
+		
+		<div id ="section3">
+		<h3>
+			Hanif Ahmed
+		</h3><hr>
+		<div id="pic"><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/292217_394295310621654_1758513560_n.jpg?oh=737749b2f6467934e7387e8f9a14d309&oe=551942E4&__gda__=1424124525_c43082dd15c66b589a0704292d7f8711" height="230" width="220" align="left" style="PADDING-right: 50px"></div>
+		<div id ="membertext"><p>
+			Ahmed is a third year Computer Science major. He was in the IB program during high school, and came up with the topic for our group project.
+		</p></div><br><br></div><br>
+
+		<div id ="section3">
+		<h3>
+			Florencia Bonarto
+		</h3><hr>
+		<div id="pic"><img src="https://scontent-a-mia.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10615423_838508826161727_4310206165737013572_n.jpg?oh=c4dfacab46ffe8201354354550d1d3ca&oe=54D2C48E" height="240" width="180" align="left" style="PADDING-right: 50px"></div>
+		
+		<div id ="membertext"><p>
+			Bonarto is a third year Digital Arts and Sciences major. She is External Vice President of oSTEM, and a 3D modeling and animation intern at Immersed Games for Tyto Online.
+		</p></div><br><br><br></div><br>
+
+		<div id ="section3">
+		<h3>
+			Kenneth Caberera
+		</h3><hr>
+		<div id="pic"><img src="https://scontent-a-dfw.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10676201_1469123853368135_2981384645509755634_n.jpg?oh=89f8b8a5a9d5a956c508ecaa0bbf2a23&oe=54D62451" height="240" width="190" align="left" style="PADDING-right: 50px"></div>
+		<div id ="membertext"><p>
+			Caberera is a third year Computer Science major. He works at Cabana Beach, and you can often find him at the Dungeon playing Super Smash Bros on 3DS. 
+		</p></div><br><br><br></div><br>
+
+		<div id ="section3">
+		<h3>
+			Elaine Del Rosario
+		</h3><hr>
+		<div id="pic"><img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10171688_10152394895818678_5101796732032210776_n.jpg?oh=e249d3eb473ae6e7589cac9d42c29ce6&oe=54EEFBC1&__gda__=1424153303_5c6b3aaf1c9a529df8f0f4a4f785fa2c" height="240" width="180" align="left" style="PADDING-right: 50px"></div>
+		<div id ="membertext"><p>
+			Del Rosario is a third year Digital Arts and Sciences major. She is a concept artist intern at Immersed Games for Tyto Online, and loves Pokemon.
+		</p></div><br><br><br><br></div><br>
+	</div>
 </div>
 
 <div id="footer">

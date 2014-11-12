@@ -4,102 +4,132 @@
 <head>
 <style>
 #page {
-    background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrZlO-Qh78XJj2pEnaDh0bpdiXrL4WH0YWVEvyQSRuuzZ_Stzt");
-    padding:50px;
+    background-color: silver;
+    padding:10px 150px;
 }
 #header {
-    background-image:url("http://www.tactilemedia.com/download/weave.gif");
     color:black;
     text-align:center;
-    float:center;
     padding:20px;
 }
 #nav {
+    background-color:black;
     line-height:30px;
-    background-image:url("http://www.tactilemedia.com/download/weave.gif");
-    height:500px;
-    width:200px;
     text-align:center;
-    float:left;
-    padding:5px;	      
+    float:center;
+    width: 100%;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
+}
+#wrapper {
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    width: 600px;
+}
+#navbar-item {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    color: white;
 }
 #section {
-    background-image:url("http://www.metrolooknyc.com/v1site_images/backgrounds/black.jpg");
-    width:500px;
-    float:left;
-    color:white;
+    background-color: gray;
+    float:center;
+    color:black;
     text-align:justify;
-    padding:50px;	 	 
+    padding:50px 100px;	
+    font-family: sans-serif;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
+}
+#section2 {
+    padding:10px 50px;
+    line-height:20px;	 
 }
 #footer {
-    background-image:url("http://www.printedexistence.com/vampirefreaks/readymade/backgrounds/spiderwebs.gif");
-    color:white;
+    background-color: black;
+    color:black;
     clear:both;
     text-align:center;
-    padding:5px; 	 
+    padding:5px;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;	 
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    float: center;
+    text-align: center;
 }
 li {
-    float: center;
+    float: left;
+    text-align: center;
 }
-a:link, a:visited {
+a.class1:link, a.class1:visited {
     display: block;
-    width: 190px;
     font-weight: bold;
     color: #FFFFFF;
-    background-image:url("http://www.printedexistence.com/vampirefreaks/readymade/backgrounds/spiderwebs.gif");
+    background-color:black;
     text-align: center;
     padding: 4px;
     text-decoration: none;
     text-transform: uppercase;
+    float:center;
 }
-/*#title {
+a.class1:hover, a.class1:active {
+    color: silver;
+}
+a.class2:link, a.class2:visited {
     display: block;
-    width: 600px;
     font-weight: bold;
-    color: #FFFFFF;
-    background-image:url("http://tailgateheavenradio.com/wp-content/uploads/2014/02/black_background_wood-wallpaper-800x600.jpg");
-    text-align: center;
-    padding: 4px;
+    color: white;
     text-decoration: none;
-    text-transform: uppercase;
-}*/
-/*a:hover, a:active {
-    background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrZlO-Qh78XJj2pEnaDh0bpdiXrL4WH0YWVEvyQSRuuzZ_Stzt");
-}*/
+    float:center;
+}
+a.class2:hover, a.class2:active {
+    color: black;
+    text-decoration: none;
+}
 </style>
 </head>
 
-<body>
+<body bgcolor=silver>
 
 <div id="page">
-<div id="header"><div id="title">
+<div id="header">
 	<img src="https://raw.githubusercontent.com/CAP-3027-Group-Project-UF/Webpage/master/GroupText1.png">
-</div></div>
-
-<div id="nav">
-	<ul>
-		<li><a href="index.html">Splash</a></li><br>
-		<li><a href="presentation.html">Presentation</a></li><br>
-		<li><a href="team.html">Team</a></li><br>
-		<li><a href="refs.html">References</a></li><br>
-	</ul>
 </div>
+
+<div id="nav"><div id="wrapper">
+	<ul>
+		<li><a class = "class1" href="index.html" id="navbar-item">Intro</a></li>
+		<li><a class = "class1" href="presentation.html" id="navbar-item">Presentation</a></li>
+		<li><a class = "class1" href="team.html" id="navbar-item">Team</a></li>
+		<li><a class = "class1" href="refs.html" id="navbar-item">References</a></li>
+	</ul>
+</div></div>
 
 <div id="section">
 	<h2>References</h2>
 	<hr>
-	<p>
-		http://natureofcode.com/book/chapter-4-particle-systems/
-	</p>
-	<p>
-		Provides a basic summary of what particles systems are and how to make one using the Processing environment.
-	</p>
+	<div id="section2">
+		<p>
+			Game Physics Engine Development by Ian Millington
+		</p><br>
+		<p>
+			Physics for Game Programmers by Grant Palmer
+		</p><br>
+		<ul>
+			<li><a class = "class2" href="http://natureofcode.com/book/chapter-4-particle-systems/">Nature of Code</a></li>
+		</ul>
+		<p>
+			Provides a basic summary of what particles systems are and how to make one using the Processing environment.
+		</p><br>
+	</div>
 </div>
 
 <div id="footer">
