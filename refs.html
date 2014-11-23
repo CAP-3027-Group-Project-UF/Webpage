@@ -49,7 +49,15 @@
 }
 #section2 {
     padding:10px 50px;
-    line-height:20px;	 
+    line-height:5px;	 
+}
+#section3 {
+    padding:20px 50px;
+    line-height:20px;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
+    background-color: silver;
+    line-height:20px;
 }
 #footer {
     background-color: black;
@@ -60,13 +68,21 @@
     border: 2px solid #a1a1a1;
     border-radius: 25px;	 
 }
-ul {
+ul.a {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     float: center;
     text-align: center;
+}
+ul.b {
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: center;
+    text-align: left;
 }
 li {
     float: left;
@@ -108,7 +124,7 @@ a.class2:hover, a.class2:active {
 </div>
 
 <div id="nav"><div id="wrapper">
-	<ul>
+	<ul class="a">
 		<li><a class = "class1" href="index.html" id="navbar-item">Intro</a></li>
 		<li><a class = "class1" href="presentation.html" id="navbar-item">Presentation</a></li>
 		<li><a class = "class1" href="team.html" id="navbar-item">Team</a></li>
@@ -120,18 +136,35 @@ a.class2:hover, a.class2:active {
 	<h2>References</h2>
 	<hr>
 	<div id="section2">
+		<h2>Sources</h2>
+	<div id="section3">
+		<ul class="b">
 		<p>
 			Game Physics Engine Development by Ian Millington
-		</p><br>
+		</p>
 		<p>
 			Physics for Game Programmers by Grant Palmer
-		</p><br>
-		<ul>
+		</p>
+		
 			<li><a class = "class2" href="http://natureofcode.com/book/chapter-4-particle-systems/">Nature of Code</a></li>
+			<p>
+				- provides a basic summary of what particles systems are and how to make one using the Processing environment.
+			</p>
 		</ul>
-		<p>
-			Provides a basic summary of what particles systems are and how to make one using the Processing environment.
-		</p><br>
+	</div><br>
+		<h2>Picture References</h2>
+	<div id="section3">
+		<ul class="b">
+			<li><a class = "class2" href="http://directtovideo.wordpress.com/2009/10/06/a-thoroughly-modern-particle-system/">Image 1</a></li><br>
+			<li><a class = "class2" href="http://ccl.northwestern.edu/netlogo/models/ParticleSystemBasic">Image 2</a></li><br>
+			<li><a class = "class2" href="http://positech.co.uk/cliffsblog/2009/01/page/3/">Image 3</a></li><br>
+			<li><a class = "class2" href="http://www1.in.tum.de/lehrstuhl_1/home/98-teaching/tutorials/507-sgd-ws13-tutorial-particle-systems">Image 4</a></li><br>
+			<li><a class = "class2" href="https://ryzomcore.atlassian.net/wiki/display/RC/Particle+System+Editor">Image 5</a></li><br>
+			<li><a class = "class2" href="http://www.leadwerks.com/werkspace/page/Documentation/le2/_/user-guide/editor/special-entities/particle-emitter-r514">Image 6</a></li><br>
+			<li><a class = "class2" href="http://www.kenottmann.com/2013/10/particle-systems-ii-animation/">Image 7</a></li><br>
+			<li><a class = "class2" href="http://wesleygamedesigner.blogspot.com/2013/02/particle-in-video-games-part-ii.html">Image 8</a></li>
+		</ul>
+	</div><br>
 	</div>
 </div>
 

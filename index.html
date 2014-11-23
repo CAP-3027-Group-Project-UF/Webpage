@@ -50,7 +50,15 @@
 }
 #section2 {
     padding:10px 50px;
-    line-height:20px;	 
+    line-height:5px;	 
+}
+#section3 {
+    padding:20px 50px;
+    line-height:20px;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
+    background-color: silver;
+    line-height:20px;
 }
 #footer {
     background-color: black;
@@ -110,9 +118,18 @@ a:hover, a:active {
 	<h2>Intro</h2>
 	<hr>
 	<div id="section2">
+	<div id="section3">
 		<p>
 			This is a group project on particles systems for CAP 3027.  We will  be covering the mechanics on how particle systems work, as well as provide a basic algorithm to help 			students get started on programming a particle system of their own.
 		</p>
+		<p>
+			Particle systems: a useful technique in computer graphics used commonly to model irregular types of natural phenomena such as fire, smoke, water, fog, grass, etc.
+
+	Each particle has a lifespan and an emitter; the emitter controls the initial settings of the particle, such as location, velocity, etc. Emitters also determine the number of particles released at a single time.
+
+	Particles start from the emitter, but they do not live forever. The reason being is that the amount of particles would continuously increase until the program stopped due to the large amount of data that needed to be stored.
+		</p>
+	</div>
 	</div>
 </div>
 
